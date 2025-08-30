@@ -1,0 +1,63 @@
+.todo-style{
+  display: flex; 
+  justify-content: space-between;
+  background-color: rgb(87, 44, 124);
+  margin-top: 5px;
+  color: white;
+  padding: 5px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;       /* عشان العناصر تكون في المنتصف عمودياً */
+  justify-content: space-between; /* تيكست في الشمال، والشيك والسلة في اليمين */
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+
+}
+
+.big-container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(2, 33, 23);
+  padding: 50px;
+}
+
+.container{
+  width:400px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(128, 0, 255);
+  margin: auto;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-style:italic;
+  border-radius: 30px;
+}
+
+.btn{
+  padding: 10px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+.inp{
+  padding: 10px 15px;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.del-item{
+  cursor:pointer
+}
+
+.completed{
+  text-decoration: line-through;
+  
+  text-decoration-thickness: 2px;
+}
+
+.inp::placeholder{
+  font-size: 18px;
+}
